@@ -8,7 +8,7 @@
        Fonts
 --------------------*/
 
-@fontName          : 'Roboto';
+@fontName          : 'Open Sans';
 @importGoogleFonts : true;
 @googleFontSizes   : '400,700,400italic,700italic';
 
@@ -21,3 +21,5 @@
 
 /* The size of page text  */
 @fontSize : 16px;
+
+@columnCount: 12;

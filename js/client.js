@@ -1,8 +1,7 @@
 $(document).ready(function() {
-
-// Close message on clicking x
-$('.message .close').on('click', function() {
-    $(this).closest('.message').transition('fade');
-});
-
+	$("#orderList").click(function() {
+		$('.ui.basic.modal')
+	 	 .modal('show')
+		;
+	});
 });
