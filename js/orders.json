@@ -1,0 +1,70 @@
+{
+    "items": [
+        {
+        	"name": "Lettuce",
+        	"available": true,
+            "type": "Vegetable"
+        },
+        {
+        	"name": "Kale",
+        	"available": false,
+            "type": "Vegetable"
+        },
+        {
+        	"name": "Pumpkin",
+        	"available": true,
+            "type": "Vegetable"
+        },
+        {
+        	"name": "Parsnips",
+        	"available": true,
+            "type": "Vegetable"
+        },
+        {
+        	"name": "Onions",
+        	"available": true,
+            "type": "Vegetable"
+        },
+        {
+            "name": "Basil",
+            "available": true,
+            "type": "Herbs"
+        },
+        {
+            "name": "Parsley",
+            "available": true,
+            "type": "Herbs"
+        },
+        {
+            "name": "Fennel",
+            "available": true,
+            "type": "Vegetable"
+        },
+        {
+            "name": "Blackberries",
+            "available": true,
+            "type": "Fruit"
+        },
+        {
+            "name": "Bananas",
+            "available": true,
+            "type": "Fruit"
+        },
+        {
+            "name": "Cucumbers",
+            "available": true,
+            "type": "Vegetable"
+        },
+        {
+            "name": "Eggs",
+            "available": true,
+            "type": "other bits"
+        },
+        {
+            "name": "Celery",
+            "available": true,
+            "type": "Vegetable"
+        }
+    ]
+}
+

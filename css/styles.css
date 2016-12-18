@@ -1,4 +1,4 @@
-.orderList{
+.order-list{
 	position: fixed;
 	top:0;
 	left:0;
@@ -10,3 +10,15 @@
 	list-style: none;
 }
 
+.ui.basic.modal.order-list{
+	//background-color:white;
+	color:black;
+}
+
+.order-list ul{
+	list-style-type: none;
+}
+
+.ui.dimmer{
+	background-color:white;
+}

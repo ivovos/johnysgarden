@@ -17,10 +17,11 @@
   </head>
 
   <body>
+ <!--    <div id="orderList">
+  
+    </div> -->
 
     <div class="ui container">
-    <button id="demo">test</button>
-
     <!-- Menu -->
       <div class="ui text menu">
         <a class="item">
@@ -85,38 +86,17 @@
       </ul>
       <p>This is just a small selection of what we grow. We also carefully source lots more from local suppliers.
       </p>
-      <button id="orderList" class="ui primary button">
+      <button id="orderListBtn" class="ui primary button">
       View Order List
       </button>
 
       <div class="ui basic inverse modal order-list">
-        <h2>THE ORDER LIST</h2>
+        <h2>The Order List</h2>
         <p>Everything is Organic Certified and either grown by us or carefully, mostly locally, sourced. We grow seasonal produce so not all of it is avaliable all of the time.</p>
-
-        <h3>Vegetables & Leaves</h3>
-        <ul>
-          <li>Artichokes</li><li>Asparagus</li><li>Broad beans</li><li>Beans green</li><li>Beetroot</li><li>Broccoli</li><li>Broccoli Sprouts</li><li>Cabbage</li><li>Carrots</li><li>Celery</li><li>Cherry tomatoes</li><li>Eggplant / Aubergine</li><li>Edamame beans</li><li>Fennel</li><li>Garlic</li><li>Green Salad Mix</li><li>Cos Lettuce</li><li>Kale</li><li>Lettuce</li><li>Rocket</li><li>Rubychard</li><li>Saladmix.</li><li>Silverbeet / Swiss Chard</li><li>Snowpeas</li><li>Sugarsnappeas</li><li>Baby Spinach</li><li>Onions red / brown</li><li>Peas</li><li>Pumpkins</li><li>Potatoes</li><li>Zucchinis</li><li>Baby Spinach</li>
-        </ul>
-        <h3>Herbs</h3>
-        <ul>
-          <li>Coriander</li> <li>Italian Parsley</li> <li>Curly Parsley</li> <li>Oregano</li> <li>Rosemary</li> <li>Tarragon</li> <li>Thyme</li> <li>LemonMyrtle</li>
-        </ul>
-        <h3>Fruit</h3>
-        <ul>
-          <li>Apples</li><li>Bananas</li><li>Guavas</li><li>Kiwifruit</li><li>Lemons</li><li>Limes</li><li>Mandarins</li><li>Oranges</li><li>Pears</li><li>Watermelons</li>
-        </ul>
-        <h3>Dairy</h3>
-        <ul>
-          <li>Butter</li> <li>Parmesan</li> <li>Fetta</li> <li>Pecorino</li> <li>Cheddar</li> </ul>
-        <h3>Cupboard Essentials</h3>
-        <ul>
-        <li>Brown Rice</li><li>Chickpeas</li><li>Spelt flour</li><li>Lentils</li><li>Cannellini beans</li><li>Coconut milk</li><li>Coconut cream**</li><li>Diced tomatoes</li><li>Californian Dates*</li><li>Prunes</li><li>Sultanas</li> </ul>
-        <h3>Johny's Specials</h3>
-        <ul>
-          <li>Awesome Organic Chutney</li><li>Seasonal Pesto</li> 
-        </ul>
+          <!-- this list is dynamically created from js-->
+        <ul id="orderList"></ul>
         <p>Got a favourite not listed, just let us know as we may be able to grow or source it.</p>
-        <button class="ui secondary button">Close</button>
+        <button id="closeModalBtn" class="ui secondary button">Close</button>
       </div>
     </div>
 
@@ -199,6 +179,8 @@
 
   </div>
       <!-- Vendor -->
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.1/underscore-min.js"></script>
+
     <script src="https://code.jquery.com/jquery-2.2.1.min.js"
           integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
           crossorigin="anonymous"></script>
