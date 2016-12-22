@@ -58,13 +58,19 @@
         {
             "name": "Eggs",
             "available": true,
-            "type": "other bits"
+            "type": "Other Bits"
         },
         {
             "name": "Celery",
             "available": true,
             "type": "Vegetable"
+        },
+        {
+            "name": "Carrots",
+            "available": true,
+            "type": "Root Vegetable"
         }
+
     ]
 }
 

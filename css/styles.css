@@ -17,8 +17,11 @@
 
 .order-list ul{
 	list-style-type: none;
+	line-height:  2em;
+	margin-bottom: 1em; 
 }
 
 .ui.dimmer{
 	background-color:white;
 }
+
